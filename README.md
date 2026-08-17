@@ -3,9 +3,6 @@
 A personal project exploring how to discover GitHub repositories that are functionally similar to a given project using more than just text similarity.
 
 The idea is simple: instead of searching by keyword alone, I wanted a system that combines multiple signals to answer a question like, “What other repositories are conceptually close to this project?” I built a pipeline that collects GitHub metadata, embeds README and description text, evaluates dependency overlap, topic similarity, and repository ecosystem signals, then ranks likely matches with a FAISS vector index.
-
-This project is a research-heavy but practical prototype for repo recommendation and similarity discovery.
-
 ---
 
 ## Why I built this
