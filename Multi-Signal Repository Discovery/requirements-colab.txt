@@ -1,0 +1,2 @@
+# Data collection only (for Google Colab) — installs in seconds
+requests>=2.28.0

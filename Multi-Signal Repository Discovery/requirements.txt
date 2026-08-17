@@ -1,0 +1,21 @@
+# Multi-Signal Repository Discovery - dependencies
+# Install: pip install -r requirements.txt
+
+# GitHub API and HTTP
+requests>=2.28.0
+
+# Data and numerics
+pandas>=1.5.0
+numpy>=1.23.0
+scipy>=1.9.0
+
+# Sentence-BERT for README embeddings
+sentence-transformers>=2.2.0
+
+# Collaborative filtering (matrix factorization)
+scikit-learn>=1.2.0
+
+# FAISS for fast similarity search (CPU version; install faiss-gpu if you have GPU)
+faiss-cpu>=1.7.0
+
+
